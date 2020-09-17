@@ -1,0 +1,3 @@
+#!/bin/bash
+diff -up a/config.def.h b/config.def.h > 9-your-patch.diff
+mv config.h config.h.old

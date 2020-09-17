@@ -1,0 +1,2 @@
+#!/bin/bash
+updpkgsums && rm -rf src && makepkg -sif
